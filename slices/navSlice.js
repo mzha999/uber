@@ -1,6 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
 
 const initialState = {
     origin: null,
