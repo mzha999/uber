@@ -70,7 +70,7 @@ const RideOptionsCard = () => {
                 {new Intl.NumberFormat('en-gb', {
                     style: 'currency',
                     currency: 'USD'
-                }).format((travelTimeInfo.duration?.value * SURGE_CHANGE_RATE * item.multiplier)/100)}
+                }).format((travelTimeInfo?.duration?.value * SURGE_CHANGE_RATE * item.multiplier)/100)}
             </Text>
           </TouchableOpacity>
         )}
